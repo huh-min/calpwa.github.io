@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>계산기 만들기</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Calculator.js" defer></script>
+</head>
+
+<body>
+    <div id="view">
+
+
+        <div id="cal_wrapper">
+
+            <div id="cal_name">
+                Nowonteam Calculator
+
+            </div>
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <td colspan="4">
+                        <div data-current-operand class="cal_result">0</div>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td><button data-delete class="cal_operation">DEL</button></td>
+                    <td><button data-all-clear class="cal_operation">AC</button></td>
+                    <td><button data-operation class="cal_operation">%</button></td>
+                    <td><button data-equals class="cal_operation">=</button></td>
+
+                </tr>
+                <tr>
+                    <td><button data-number class="cal_num">7</button></td>
+                    <td><button data-number class="cal_num">8</button></td>
+                    <td><button data-number class="cal_num">9</button></td>
+                    <td><button data-operation class="cal_operation">÷</button></td>
+                </tr>
+                <tr>
+                    <td><button data-number class="cal_num">4</button></td>
+                    <td><button data-number class="cal_num">5</button></td>
+                    <td><button data-number class="cal_num">6</button></td>
+                    <td><button data-operation class="cal_operation">*</button></td>
+                </tr>
+                <tr>
+                    <td><button data-number class="cal_num">1</button></td>
+                    <td><button data-number class="cal_num">2</button></td>
+                    <td><button data-number class="cal_num">3</button></td>
+                    <td><button data-operation class="cal_operation">-</button></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><button data-number class="cal_num" id="zero">0</button></td>
+                    <td><button data-number class="cal_num">.</button></td>
+                    <td><button data-operation class="cal_operation">+</button></td>
+                </tr>
+            </table>
+        </div>
+
+
+        <div id="chart_wrapper">
+        </div>
+
+    </div>
+
+</body>
+
+</html>

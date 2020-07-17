@@ -1,0 +1,75 @@
+/* Specifies the style for the body*/
+body {
+    font-family: sans-serif;
+}
+
+/* Specifies the style for the table*/
+table {
+    text-align: center;
+    width: auto;
+}
+
+#view{
+    width: 80%;
+    margin: 0px auto;
+}
+
+
+#cal_wrapper{
+    margin-top: 20px;
+}
+
+/* Specifies the style for the calculator's name*/
+#cal_name {
+    font-weight: bold;
+    font-size: 35px;
+    border: 3px solid black;
+    display: inline;
+    padding: 5px;
+}
+
+/* Specifies the style for the numeric part of the calculator*/
+.cal_num {
+    border-radius: 10px;
+    background-color: #333333;
+    color: #FFFFFF;
+    width: 90px;
+    height: 45px;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 3px;
+}
+
+/* Specifies the style for the zero part of the calculator*/
+#zero.cal_num {
+    width: 100%;
+}
+
+/* Specifies the style for the functional part of the calculator*/
+.cal_operation {
+    border-radius: 10px;
+    background-color: #FE9F0B;
+    color: #FFFFFF;
+    width: 90px;
+    height: 45px;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 3px;
+}
+
+/* Specifies the style for the results window of the calculator*/
+.cal_result {
+    border-radius: 15px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: right;
+    width: 378px;
+    height: 45px;
+    font-size: 30px;
+    font-weight: 700;
+}
